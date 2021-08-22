@@ -13,6 +13,7 @@ import PageRoutes from '../../../Modules/Page/Assets/js/PageRoutes';
 import MediaRoutes from '../../../Modules/Media/Assets/js/MediaRoutes';
 import UserRoutes from '../../../Modules/User/Assets/js/UserRoutes';
 import DashboardRoutes from '../../../Modules/Dashboard/Assets/js/DashboardRoutes';
+import MahasiswaRoutes from '../../../Modules/Mahasiswa/Assets/MahasiswaRoutes';
 
 Vue.use(Vuex);
 Vue.use(ElementUI, { locale });
@@ -51,6 +52,7 @@ const router = new VueRouter({
         ...PageRoutes,
         ...MediaRoutes,
         ...UserRoutes,
+        ...MahasiswaRoutes
     ],
 });
 

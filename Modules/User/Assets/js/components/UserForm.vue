@@ -7,7 +7,9 @@
       <div class="col-md-7 align-self-center">
         <ol class="breadcrumb">
           <li class="breadcrumb-item">
-            <router-link :to="{name : 'dashboard.index'}">{{ trans('core.breadcrumb.home') }}</router-link>
+            <router-link :to="{ name: 'dashboard.index' }">{{
+              trans("core.breadcrumb.home")
+            }}</router-link>
           </li>
           <li class="breadcrumb-item">
             {{ trans(`users.${pageTitle}`) }}
